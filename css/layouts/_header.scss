@@ -1,0 +1,39 @@
+// Logo
+.logo {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    width: auto;
+    font-size: 23px;
+    margin: -1.3rem;
+}
+
+// Localisation
+.localisation {
+    display: flex;
+    background: #eaeaea;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 2px 5px 0px #c4c3c0;
+    .localisation__bloc {
+        display: flex;
+        flex-direction: row;
+        margin: 5px
+    } 
+}
+.localisation__icon {
+    display: flex;
+    align-items: center;
+}
+.localisation__placeholder {
+    display: flex;
+}
+.localisation__placeholder input {
+    display: flex;
+    border: none;
+    background-color: #eaeaea;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+

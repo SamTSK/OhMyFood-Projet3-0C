@@ -1,0 +1,28 @@
+@mixin shadow {
+    text-shadow: indigo;
+}
+@mixin arrow {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position:absolute;
+}
+@mixin btn {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-image: linear-gradient($secondaire, $primaire);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px grey;
+    padding: 0.6rem 1.5rem;
+    transition: all 200ms;
+}
+@mixin btn-color {
+    background-color: linear-gradient($secondaire, $primaire);
+}

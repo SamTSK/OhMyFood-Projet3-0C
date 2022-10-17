@@ -1,0 +1,78 @@
+// Circle-check animation
+@keyframes circle-check{
+    0% {
+        transform: rotate(-270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.menu__list:hover .fa-circle-check {
+    animation: circle-check 1s ease-in-out;
+}
+// loader
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    position: fixed;
+    inset: 0;
+    background-color: rgb(189, 228, 253);
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.7;
+    animation: disappear 10ms;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    transform-origin: bottom;
+}
+@keyframes disappear {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+// Appear
+@keyframes appear {
+    0% {
+        transform: scale(0);
+    }
+    100% {transform: scale(1);}
+}
+.menu__list:nth-child(-n+3) {
+    animation: appear 0s ease-in-out; 
+}
+.menu__list:nth-child(n+2) {
+    animation: appear 0.2s ease-in-out; 
+}
+.menu__list:nth-child(n+3) {
+    animation: appear 0.9s ease-in-out; 
+}
+.menu__list:nth-child(n+4) {
+    animation: appear 1.5s ease-in-out; 
+}
+// heart-icon
+.h1:hover i {
+        background-image: linear-gradient($secondaire, $primaire);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;      
+        transform: scale(1);
+}
+.h1 i {
+    color: transparent;
+    transform: scale(0);
+    transition: all 500ms;
+
+}
+.h2 {
+    position:absolute;
+    z-index: 0;
+}
+.h1 {
+    z-index: 10;
+    position: relative;
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: 992px){
+    .fonction__card {
+        flex-direction: column;
+        .fonction__card__bloc {
+            padding: 0.5rem;
+            margin-bottom: 0.3rem;
+        }
+    }
+    .restaurants__card__bloc {
+        flex-direction: column;   
+    }
+    .about__paragraphe {
+        text-align: center;
+        margin: 0.5rem;
+        margin-bottom: 1rem;
+        font-weight: 200;
+        font-size: larger;
+    }
+    
+    .global__menu {
+        flex-direction: column;
+        .starter, .meals, .dessert {
+            width: 100%;
+        }
+        .menu__starter, .menu__meals, .menu__dessert {
+            width: 61px;
+        }
+    }
+    // footer 
+    footer .footer__logo {
+        display: block;
+        justify-content: flex-start;
+        margin-left: 2rem;
+    }
+    footer .footer__contain .footer__contain__info {
+        justify-content: flex-start;
+        margin-left: 2rem;
+        padding: 3px;
+    }
+}

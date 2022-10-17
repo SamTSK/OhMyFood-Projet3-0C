@@ -1,0 +1,37 @@
+.about__btn { 
+    @include btn;
+    &:hover {
+        transform: scale(1.2);
+        box-shadow: 4px 4px 6px #aaa; 
+    }
+ }
+.about__btn:hover{
+    transform: scale(1.2);
+    box-shadow: 4px 4px 6px #aaa;  
+}
+.btn {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-image: linear-gradient($secondaire, $primaire);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px grey;
+    padding: 0.6rem 1.5rem;
+}
+.about__btn:hover{
+    transform: scale(1.2);
+    box-shadow: 4px 4px 6px rgb(44, 41, 41); 
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    transition-duration: 1s;
+    opacity: 0.8;
+}
+.btn__menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1rem;
+    background-color: #f6f6f6;
+}

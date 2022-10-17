@@ -1,0 +1,49 @@
+// Fonctionnement
+.fonction__title {
+    margin: 20px;
+    margin-top: 2rem;
+}
+.fonction__card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+.fonction__card__bloc {
+    display: flex; 
+    background-color: $localisation-color;
+    align-items: baseline;
+    padding: 25px;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px;
+    box-shadow: 2px 2px 10px lightgrey;
+}
+.fonction__card__bloc:hover {
+    background-color: rgba(255, 240, 255, 0.993);
+    .fonction__card__bloc__icon {
+        color: $primaire;
+    }
+}
+
+.fonction__card__bloc__number {
+    display: flex;
+    background-color: $primaire;
+    border-radius: 50px;
+    justify-content: center;
+    color: white;
+    width: 20px;
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.fonction__card__bloc__icon {
+    display: flex;
+    padding: 1rem;
+    color: gray;
+    font-weight: 900;
+}
+.fonction__card__bloc__text {
+    display: flex;
+}

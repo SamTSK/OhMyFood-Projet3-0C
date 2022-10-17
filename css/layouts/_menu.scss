@@ -1,0 +1,109 @@
+// Menu 
+.menu__price {
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+    padding: 5px;
+}
+.pc {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu__title__text {
+    font-family: $font-shrikland;
+    
+}
+
+.menu__text__two, .menu__text__first {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 3px;
+}
+.menu__text__first {
+    font-weight: 900;
+}
+.menu__text__two {
+    font-weight: 100;
+}
+.menu__icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    border-radius: 4rem 4rem 0 0;
+    margin-top: -4rem;
+    position: relative;
+}
+.global__menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.starter, .meals, .dessert {
+    width: 27%;
+}
+// Palette du goût.
+.img__menu {
+    display: flex;
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+.menu__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+.menu__starter, .menu__meals, .menu__dessert {
+    font-weight: 300;
+    border-bottom: 4px solid $tertiaire;
+    width: 20%;
+}
+.menu__list{
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #dcdcdc;;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+    .menu__text {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 5px;
+        margin-top: 4px;
+        margin-left: 6px
+    }
+}
+// Menu 
+.menu__check {
+    background-color: $tertiaire;
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 100%;
+    margin-right: -5rem;
+    transition: all 1000ms;
+    border-radius: 0 15px 15px 0;
+}
+.menu__list:hover .menu__check {
+    margin-right: 0;
+}
+
+.fa-circle-check {
+    color: white;
+    font-size: 1.5rem;
+}
