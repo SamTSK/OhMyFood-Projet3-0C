@@ -4,9 +4,11 @@
     margin-top: 2rem;
 }
 .fonction__card {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2.5rem;
+    flex-direction: column;
+    .fonction__card__bloc {
+        padding: 0.5rem;
+        margin-bottom: 0.3rem;
+    }
 }
 .fonction__card__bloc {
     display: flex; 

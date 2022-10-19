@@ -5,20 +5,24 @@ footer {
         padding-top: 2rem;
         font-family: $font-shrikland;
         color: white;
-        justify-content: center;
+        justify-content: flex-start;
+        margin-left: 1.2rem;
     }
     .footer__contain {
         display: flex;
         flex-direction: column;
         padding-bottom: 2rem;
+        margin-left: 1.2rem;
         .footer__contain__info {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             color: white;
             gap: 0.5rem;
+            margin-bottom: 4px;
             .footer__contain__text {
                 display: flex;
                 margin: 0;
+                margin-bottom: 4px;
             }
             .footer__contain__icon{
                 display: flex;

@@ -1,40 +1,99 @@
-@media screen and (max-width: 992px){
+@media screen and (min-width: 768px){
     .fonction__card {
-        flex-direction: column;
-        .fonction__card__bloc {
-            padding: 0.5rem;
-            margin-bottom: 0.3rem;
-        }
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5rem;
     }
     .restaurants__card__bloc {
-        flex-direction: column;   
+        display: flex;
+        justify-content: space-around;
+        margin-top: -1rem
     }
     .about__paragraphe {
-        text-align: center;
-        margin: 0.5rem;
-        margin-bottom: 1rem;
-        font-weight: 200;
-        font-size: larger;
+        display: flex;
+        margin-top: 1px;
     }
     
     .global__menu {
-        flex-direction: column;
-        .starter, .meals, .dessert {
-            width: 100%;
-        }
-        .menu__starter, .menu__meals, .menu__dessert {
-            width: 61px;
-        }
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
     }
-    // footer 
+
     footer .footer__logo {
         display: block;
         justify-content: flex-start;
-        margin-left: 2rem;
+        margin-left: 3.2rem;
     }
     footer .footer__contain .footer__contain__info {
         justify-content: flex-start;
         margin-left: 2rem;
         padding: 3px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .fonction__card {
+        flex-direction: row;
+    }
+    .restaurants__card__bloc {
+        flex-direction: row;
+    }
+    .global__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .starter, .meals, .dessert {
+        width: 27%;
+    }
+    .fonction__card .fonction__card__bloc {
+        padding: 1.5rem;
+        margin-bottom: 0.3rem;
+    }
+    footer .footer__logo {
+        display: flex;
+        padding-top: 2rem;
+        font-family: "Shrikhand", cursive;
+        color: white;
+        justify-content: center;
+        margin-left: 3.2rem;
+    }
+    footer .footer__contain .footer__contain__info {
+        display: flex;
+        justify-content: center;
+        color: white;
+        gap: 0.5rem;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .fonction__card {
+        flex-direction: row;
+    }
+    .restaurants__card__bloc {
+        flex-direction: row;
+    }
+    .global__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .starter, .meals, .dessert {
+        width: 27%;
+    }
+    footer .footer__logo {
+        display: flex;
+        padding-top: 2rem;
+        font-family: "Shrikhand", cursive;
+        color: white;
+        justify-content: center;
+        margin-left: 3.2rem;
+    }
+    footer .footer__contain .footer__contain__info {
+        display: flex;
+        justify-content: center;
+        color: white;
+        gap: 0.5rem;
     }
 }
