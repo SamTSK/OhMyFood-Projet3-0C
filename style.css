@@ -154,8 +154,8 @@ body {
   font-family: "Shrikhand", cursive;
   text-align: center;
   width: auto;
-  font-size: 23px;
-  margin: -1.3rem;
+  margin: -13px;
+  font-size: 13px;
 }
 
 .localisation {
@@ -532,7 +532,7 @@ footer .footer__contain .footer__contain__info .footer__contain__icon {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .logo__arrow {
