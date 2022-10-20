@@ -437,6 +437,7 @@ footer .footer__contain .footer__contain__info .footer__contain__icon {
   display: flex;
   flex-direction: column;
   background-color: #f6f6f6;
+  margin-bottom: -18px;
 }
 
 .restaurants__title {
@@ -446,6 +447,7 @@ footer .footer__contain .footer__contain__info .footer__contain__icon {
 
 .restaurants__card__bloc {
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .restaurants__card {
